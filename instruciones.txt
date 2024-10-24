@@ -1,0 +1,11 @@
+ Ejercicio: Lista de Estudiantes con useState y useEffect
+Objetivo:
+Crear una aplicación que muestre una lista de estudiantes.
+La aplicación debe mostrar 10 registros en la carga inicial
+Usar el hook useState para manejar el estado de los estudiantes.
+Usar el hook useEffect para simular la obtención de datos desde una fuente externa, actualizando la lista automáticamente después de 5 segundos.
+La estructura del arreglo que se utilice será
+
+ 
+
+[ { id: '1', name: 'Juan' }, { id: '2', name: 'María' }, { id: '3', name: 'Carlos' } ]

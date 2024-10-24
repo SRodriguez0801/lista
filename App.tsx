@@ -1,12 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Clase from './Components/Clase';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Ejercicio en clase</Text>
       <StatusBar style="auto" />
+      <Clase></Clase>
     </View>
+    
+
   );
 }
 
