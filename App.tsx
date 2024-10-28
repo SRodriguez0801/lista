@@ -1,14 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Clase from './Components/Clase';
+import { StudentsProvider } from './Provider/StudentsProvider';
+import StudentsList from './Components/StudentsList';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Ejercicio en clase</Text>
-      <StatusBar style="auto" />
-      <Clase></Clase>
-    </View>
+   <StudentsProvider>
+    <StudentsList></StudentsList>
+   </StudentsProvider>
     
 
   );
