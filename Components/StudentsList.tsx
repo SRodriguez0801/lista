@@ -1,4 +1,3 @@
-// src/components/StudentsList.tsx
 import React, { useContext } from 'react';
 import { View, Text, FlatList, StyleSheet } from 'react-native';
 import { StudentsContext } from '../Context/StudentsContext';
